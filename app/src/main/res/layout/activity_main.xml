@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chaoslabgames.mars.androidbridgecontroller.MainActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/leftBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="left"
+                tools:layout_editor_absoluteX="238dp"
+                tools:layout_editor_absoluteY="337dp" />
+
+            <Button
+                android:id="@+id/upBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="up"
+                tools:layout_editor_absoluteX="280dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Button
+                android:id="@+id/rightBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="rigth"
+                tools:layout_editor_absoluteX="296dp"
+                tools:layout_editor_absoluteY="89dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/backBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="back"
+                tools:layout_editor_absoluteX="252dp"
+                tools:layout_editor_absoluteY="205dp" />
+
+            <Button
+                android:id="@+id/stopBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="stop"
+                tools:layout_editor_absoluteX="252dp"
+                tools:layout_editor_absoluteY="205dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/slowBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="slow" />
+
+            <Button
+                android:id="@+id/mediumBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="medium" />
+
+            <Button
+                android:id="@+id/maxBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="max" />
+
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
